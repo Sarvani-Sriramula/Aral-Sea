@@ -1,11 +1,11 @@
-# 🛰️ Satellite Image NDVI/NDWI Dashboard
+# Satellite Image NDVI/NDWI Dashboard
 
 This project is a Streamlit-based dashboard that analyzes satellite images using NDVI and NDWI.  
 It allows users to upload one or two images, view vegetation and moisture levels, and compare environmental changes over time.
 
 ---
 
-## 🌱 Features
+## Features
 - NDVI calculation (vegetation health)
 - NDWI calculation with water-pixel masking (accurate moisture detection)
 - Single-image interpretation
@@ -15,7 +15,7 @@ It allows users to upload one or two images, view vegetation and moisture levels
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 aral-dashboard/
 │
@@ -25,7 +25,7 @@ aral-dashboard/
 
 ---
 
-## 📦 Installation (Run Locally)
+## Installation (Run Locally)
 
 ### 1. Install Python
 Make sure you have **Python 3.10 or newer** installed.
@@ -38,7 +38,7 @@ This installs Streamlit, NumPy, and Pillow.
 
 ---
 
-## ▶️ Running the Dashboard Locally
+## Running the Dashboard Locally
 
 Inside the project folder, run:
 streamlit run dashboard.py
@@ -49,7 +49,7 @@ http://localhost:8501
 
 ---
 
-## 🌐 Deploying the Dashboard to Streamlit Cloud
+## Deploying the Dashboard to Streamlit Cloud
 
 You can deploy this dashboard online so anyone can access it through a public link.
 
@@ -92,7 +92,7 @@ No installation required.
 
 ---
 
-## 📸 How to Use the Dashboard
+## How to Use the Dashboard
 
 ### **Single Image Analysis**
 - Upload one satellite image  
@@ -106,7 +106,7 @@ No installation required.
 
 ---
 
-## 📱 Device Compatibility
+## Device Compatibility
 Works on:
 - Windows  
 - macOS  
@@ -116,6 +116,6 @@ No installation beyond Python and required packages.
 
 ---
 
-## 🌍 Notes
+## Notes
 This dashboard runs locally unless deployed to Streamlit Cloud.  
 Deployment steps are included above for easy sharing.
